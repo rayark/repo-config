@@ -1,0 +1,11 @@
+# Wwise
+# https://blog.audiokinetic.com/version-control-a-wwise-project/
+/.backup/
+/.cache/
+
+*.akd
+
+*.validationcache
+*.wsettings
+
+IncrementalSoundBankData.xml
