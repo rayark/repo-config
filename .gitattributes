@@ -4,7 +4,7 @@
 * -text
 
 # Unity visible meta is LF regardless of created platform
-*.meta eol=lf
+*.meta text eol=lf
 
 # All extensions are specified in lower cases
 # [git config core.ignorecase true] is assumed.
@@ -18,32 +18,32 @@
 # Such commit will cripple [git blame]
 # We decided to force lf across platforms now for adding code as source hash calculation input
 # And we'd like source code having the same binary across Windows and macOS so that the souce hash would be calculated the same
-*.cs         eol=lf
-*.json       eol=lf
+*.cs         text eol=lf
+*.json       text eol=lf
 
 # ShaderLab
-*.cginc      eol=lf
-*.shader     eol=lf
+*.cginc      text eol=lf
+*.shader     text eol=lf
 
 # Gradle property
-*.properties eol=lf
+*.properties text eol=lf
 
 # AndroidManifest and other XML files
-*.xml        eol=lf
+*.xml        text eol=lf
 
 # iOS plugin possible extensions
-*.h          eol=lf
-*.c          eol=lf
-*.cpp        eol=lf
-*.m          eol=lf
-*.mm         eol=lf
+*.h          text eol=lf
+*.c          text eol=lf
+*.cpp        text eol=lf
+*.m          text eol=lf
+*.mm         text eol=lf
 
 # NeXTSTEP property list
-*.plist      eol=lf
+*.plist      text eol=lf
 
 # GitLab and other services config
-*.yml        eol=lf
-*.toml       eol=lf
+*.yml        text eol=lf
+*.toml       text eol=lf
 
 # LFS
 # We intentionally NOT LFS tracking .prefab and .unity(Unity scene) in order to diff
